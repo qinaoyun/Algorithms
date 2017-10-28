@@ -1,4 +1,4 @@
-package main.pers.qinaoyun.fundamentals;
+package main.pers.qinaoyun.fundamentals.routine;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
@@ -16,7 +16,7 @@ public class TestStackOfStrings {
         s = new FixedCapacityStackOfStrings(100);
         while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
-            if (!item.equals("-")) {
+            if (!"-".equals(item)) {
                 s.push(item);
             } else if (!s.isEmpty()) {
                 StdOut.print(s.pop() + "");
