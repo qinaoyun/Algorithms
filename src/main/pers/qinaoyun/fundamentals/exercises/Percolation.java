@@ -1,3 +1,4 @@
+package main.pers.qinaoyun.fundamentals.exercises;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
